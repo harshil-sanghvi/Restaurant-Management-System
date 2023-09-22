@@ -1,24 +1,47 @@
-# Restaurant-Management-System
+# Restaurant Management System
 
-A console-based program of restaurant management system. Implementation of this program is done using linked list data structure.
-It has two modules:
-A] Admin
-B] Customer
+A console-based program for managing a restaurant with two modules: Admin and Customer. This program is implemented using a linked list data structure to provide various functionalities based on the user's choice.
 
-According to the the choice of user, its respective functionalities will be unlocked.
-Functionalities are listed below:
-(Following is the rough structure of program. Further additions and subtractions of functions
-may take place according to requirements of program .)
+## Features
 
-1. Admin panel:
-	1) Total sale of the day
-	2) Add items to the list
-	3) Delete items from the list
-	4) Display list of all items
+### Admin Panel
 
-2. Customer:
-	1) Display item list
-	2) Place an order
-	3) View whole order
-	4) Edit order
-	5) Final bill
+1. **Total Sale of the Day**: View the total sales for the day.
+
+2. **Add Items to the List**: Add new items to the menu list.
+
+3. **Delete Items from the List**: Remove items from the menu list.
+
+4. **Display List of All Items**: View the entire menu list.
+
+### Customer
+
+1. **Display Item List**: See the available menu items.
+
+2. **Place an Order**: Create a new order by selecting items from the menu.
+
+3. **View Whole Order**: View the complete order with selected items.
+
+4. **Edit Order**: Modify the existing order by adding or removing items.
+
+5. **Final Bill**: Calculate and display the final bill for the order.
+
+## Program Structure
+
+The program is organized into two modules: Admin and Customer, each with its set of functionalities. Additional functions may be added or removed based on specific program requirements.
+
+## Usage
+
+1. Compile the program:
+
+   ```bash
+   gcc restaurant_management.c -o restaurant_management
+   
+2. Run the program:
+
+   ```bash
+   ./restaurant_management
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
